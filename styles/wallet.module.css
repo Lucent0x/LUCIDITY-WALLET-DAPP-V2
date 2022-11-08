@@ -1,0 +1,19 @@
+.main{
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: bolder;
+}
+.i{
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flow{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
