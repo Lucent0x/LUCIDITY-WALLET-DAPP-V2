@@ -140,7 +140,7 @@ const Wallet = () => {
         // bringing in the wallet 
         const wc = SmartContract(web3)
         setWalletContract(wc)
-
+  
         // event 
         window.ethereum.on('accountsChanged', async () => {
           // Time to reload your interface with accounts[0]!
