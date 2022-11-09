@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from './head'
 import { useState, useEffect } from 'react'
 import styles from '../styles/wallet.module.css'
 import 'bulma/css/bulma.css'
