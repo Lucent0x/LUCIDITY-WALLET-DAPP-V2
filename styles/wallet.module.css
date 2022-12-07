@@ -24,7 +24,6 @@
 
     .container, .card {
         width: 100%;
-        background: turquoise;
     }
 
     .container .card .card-content{
