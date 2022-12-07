@@ -167,7 +167,7 @@ const Wallet = () => {
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
 
       <nav className='navbar mt-4 mb-4'>
-        <div className='container'>
+        <div className='container is-mobile'>
           <div className='navbar-brand'>
             <h1 > LUCIDITY  WALLET
               <p className='has-text-primary is light '>CA: {contractAddress}</p>
@@ -179,13 +179,13 @@ const Wallet = () => {
         </div>
       </nav>
       <section>
-        <section className='container'>
-          <div className="card">
+        <section className={`container ${styles.container}`}>
+          <div className={`${styles.card} card`}>
             <div className="card-content  has-text-centered">
               <p className="title">{owner} </p>
               <p className="subtitle"> {balance} GoerliETH</p>
             </div>
-            <footer className="card-footer">
+            <div className="card-footer">
               <div className="card-footer-item">
                 <div className={`control ${styles.flex}`}>
                   <input onChange={updateAmount} className="input is-medium is-focused" type="text" placeholder="Amount " />
@@ -199,7 +199,7 @@ const Wallet = () => {
                   <button onClick={makeATransfer} className='button is-success ml-6 is-medium'> TRANSFER </button>
                 </div>
               </div>
-            </footer>
+            </div>
             <div className="card-content mt-4">
               <div className='card-footer'>
 

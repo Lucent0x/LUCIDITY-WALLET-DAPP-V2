@@ -16,4 +16,27 @@
     overflow-y: auto;
 }
 
+@media ( max-width : 600px ) {
+    .main{
+        min-width : max-content;
+        min-height: 100vh;
+    }
 
+    .container, .card {
+        width: 100%;
+        background: turquoise;
+    }
+
+    .container .card .card-content{
+        color: red;
+    }
+
+    /* .flex {
+    flex-direction: column;
+    align-items: center; 
+} */
+
+.flex input {
+    margin-bottom :10px;
+}
+}
