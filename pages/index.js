@@ -167,7 +167,7 @@ const Wallet = () => {
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
 
       <nav className='navbar mt-4 mb-4'>
-        <div className='container is-mobile'>
+        <div className={`${c1} container is-mobile`}>
           <div className='navbar-brand'>
             <h1 > LUCIDITY  WALLET
               <p className='has-text-primary is light '>CA: {contractAddress}</p>

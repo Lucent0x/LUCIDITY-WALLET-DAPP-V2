@@ -21,7 +21,9 @@
         min-width : max-content;
         min-height: 100vh;
     }
-
+     .c1{
+        display: flex;
+     }
     .container, .card {
         width: 100%;
     }
